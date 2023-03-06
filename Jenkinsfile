@@ -11,10 +11,10 @@ pipeline {
    steps{
     echo 'Hello World'
    }
-   stage('HOW'){
-   steps{
+     stage('HOW'){
+     steps{
     echo 'HOW'
-   }
+     }
    stage('ARE'){
       steps{
        echo 'Are'
@@ -24,7 +24,5 @@ pipeline {
        echo 'you'
       }
   }
-
- }
 
 }
