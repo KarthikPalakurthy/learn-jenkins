@@ -20,5 +20,11 @@ pipeline {
                 }
          }
 }
+ post {
+        always {
+            echo ' Sending E-mail '
+        }
+
+}
 
 }
