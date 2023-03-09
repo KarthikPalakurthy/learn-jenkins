@@ -20,6 +20,9 @@ pipeline {
                 }
          }
          stage('Upload code to centralised place')
+                steps {
+                    echo ' Uploading code'
+                }
 }
  post {
         always {
