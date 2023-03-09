@@ -4,18 +4,18 @@ pipeline {
         }
  stages {
 
-        stage('Hello') {
-           steps {
+        steps('Hello') {
+           step {
                echo 'Hello World!'
            }
 
-        stage('Hello1') {
-            steps {
+        steps('Hello1') {
+            step {
                 echo 'Hello World!, This is a test message'
             }
 
-        stage('Hello2') {
-              steps {
+        steps('Hello2') {
+              step {
                  echo 'Thank you'
               }
             }
