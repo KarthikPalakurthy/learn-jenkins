@@ -2,25 +2,23 @@ pipeline {
     agent {
         label 'ansible'
         }
+
  stages {
-
-        steps('Hello') {
-           step {
-               echo 'Hello World!'
-           }
-
-        steps('Hello1') {
-            step {
-                echo 'Hello World!, This is a test message'
-            }
-
-        steps('Hello2') {
-              step {
-                 echo 'Thank you'
+        stage('Hello') {
+              steps {
+                  echo 'Hello World!'
               }
-            }
         }
-
- }
+         stage('Hello1') {
+               steps {
+               	  echo 'Hello World!, This is a test message'
+               }
+         }
+         stage('Hello2') {
+                steps {
+                   echo 'Thank you'
+                }
+         }
 }
+
 }
