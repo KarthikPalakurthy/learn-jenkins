@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label: 'ansible'
+        label 'ansible'
      }
     stages{
         stage('Hello'){
