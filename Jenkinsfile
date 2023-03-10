@@ -3,19 +3,13 @@
 //ci()
 
 pipeline{
-
-    agent 'roboshop' {
-
-        stages{
-
-            stage (test) {
-
-                echo Hello Banana
-
-            }
-
-        }
-
+    agent {
+        label 'roboshop'
     }
-
+        stages{
+            stage (test) {
+                echo Hello Banana
+            }
+        }
 }
+
