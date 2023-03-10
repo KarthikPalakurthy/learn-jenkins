@@ -7,7 +7,7 @@ pipeline{
         stages{
             stage ('test') {
                 steps{
-                    print 'Hello 'Banana''
+                    print 'Hello ${Banana}'
                 }
             }
         }
