@@ -9,7 +9,7 @@ pipeline{
         stages{
             stage ('test') {
                 steps{
-                    echo Hello 'Banana'
+                    say Hello 'Banana'
                 }
             }
         }
