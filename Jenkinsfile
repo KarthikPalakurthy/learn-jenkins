@@ -1,6 +1,6 @@
 @Library('roboshop')_
 
-//ci()
+test()
 
 pipeline{
     agent {
