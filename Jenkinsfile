@@ -9,7 +9,7 @@ pipeline{
         stages{
             stage ('test') {
                 steps{
-                    say Hello 'Banana'
+                    sayHello 'Banana'
                 }
             }
         }
