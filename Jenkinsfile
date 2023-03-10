@@ -8,7 +8,9 @@ pipeline{
     }
         stages{
             stage ('test') {
-                echo Hello Banana
+                steps{
+                    echo Hello Banana
+                }
             }
         }
 }
