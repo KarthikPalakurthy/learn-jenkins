@@ -1,7 +1,5 @@
 @Library('roboshop')_
 
-test()
-
 pipeline{
     agent {
         label 'roboshop'
