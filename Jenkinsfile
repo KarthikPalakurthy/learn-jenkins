@@ -7,7 +7,7 @@ pipeline{
         label 'roboshop'
     }
         stages{
-            stage (test) {
+            stage ('test') {
                 echo Hello Banana
             }
         }
